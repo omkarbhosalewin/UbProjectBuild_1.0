@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.indium.uber.qa.listners.mylistener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.indium.uber.qa.tests.BookingRideTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
