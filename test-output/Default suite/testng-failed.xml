@@ -5,7 +5,7 @@
     <classes>
       <class name="com.indium.uber.qa.tests.HomePageHeadingsTest">
         <methods>
-          <include name="Cheak_Heading"/>
+          <include name="get_App_Download_headingtext"/>
           <include name="teardown"/>
           <include name="start"/>
         </methods>

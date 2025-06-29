@@ -35,6 +35,8 @@ public class homePage
 	@FindBy(xpath="(//h2[@class='css-jmnQxd'])[3]")
 	private WebElement CarRent;
 
+	@FindBy(xpath="(//h2[@class='css-jmnQxd'])[5]")
+	private WebElement AppDownload;
 	
 	public String getheadingtext()
 	{
@@ -79,6 +81,12 @@ public class homePage
 	public String getCarRentheadingtext()
 	{
 		String headingText = CarRent.getText();
+		return headingText;
+		
+	}
+	public String getAppDownloadheadingtext()
+	{
+		String headingText = AppDownload.getText();
 		return headingText;
 		
 	}

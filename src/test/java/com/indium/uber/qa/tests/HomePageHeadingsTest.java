@@ -25,6 +25,7 @@ WebDriver driver;
 	String scheduleRidesheadingtext ="Drive when you want, make what you need";
 	String BusinessWithUberheadingtext ="The Uber you know, reimagined for business";
 	String CarRentheadingtext ="Make money by renting out your car";
+	String AppDownloadheadingtext ="It’s easier in the apps";
 	@BeforeMethod
 	public void start()
 	{
@@ -93,6 +94,14 @@ WebDriver driver;
 		homePage Hp = new homePage(driver);
 		String Heading = Hp.getCarRentheadingtext();
 		Assert.assertEquals(Heading, CarRentheadingtext, " heading is not matched");
+	}
+	
+	@Test
+	public void get_App_Download_headingtext()
+	{
+		homePage Hp = new homePage(driver);
+		String Heading = Hp.getAppDownloadheadingtext();
+		Assert.assertEquals(Heading, AppDownloadheadingtext, " heading is not matched");
 	}
 	
 	
