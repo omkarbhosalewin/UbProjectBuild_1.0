@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.indium.uber.qa.tests.BookingRideTest">
+      <class name="com.indium.uber.qa.tests.HomePageHeadingsTest">
         <methods>
-          <include name="test1"/>
+          <include name="Cheak_Heading"/>
           <include name="teardown"/>
           <include name="start"/>
         </methods>
-      </class> <!-- com.indium.uber.qa.tests.BookingRideTest -->
+      </class> <!-- com.indium.uber.qa.tests.HomePageHeadingsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -7,6 +7,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.indium.uber.qa.tests.BookingRideTest"/>
+      <class name="com.indium.uber.qa.tests.HomePageHeadingsTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
